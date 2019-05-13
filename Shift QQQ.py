@@ -55,6 +55,8 @@ while fini == 0:
         b = b - r 
     if b < 20:
         b = 20
+    if b > 680:
+        b = 680
     if pressed[100]:
         b = b + r
     buttons = pygame.mouse.get_pressed() 
